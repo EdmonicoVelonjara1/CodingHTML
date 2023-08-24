@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    
+
+    <style>
+        #in{
+            background-color: black; color:beige;
+            font-size: 30px; /* Taille de la police */
+            height: 100%;
+            position:relative;
+            left: 57vw;
+        }
+       
+    </style>
+</head>
+<body style="background-color: black;">
+   <div <FONT style="background-color: black;color: azure; ">
+        <center><FONT SIZE="6"><B> Bienvenue dans MIT</center><br>
+        <center>(Mention Informatique et Technologie)</center><br>
+        <center>de l'Université d'Antananarivo.<br>
+        </B></FONT><br></center>
+   
+   <center><img src="mit.jpeg" width="400" height="400"></img> <img src="im1.jpg" width="400" height="400"></img></center><br>
+   
+</div></FONT>
+<FONT size="9"color="white"><I>Inscrivez vous d&egrave;s maintenant!</I></FONT><br>
+    <form action="Inscription.php" method="get" >
+        <div><FONT size="8"><table border="2" align="center" cellspadding="1" cellsmargin="1"></FONT>
+            <th style="background-color:red; color: black;"><strong>FICHES D'INSCRIPTION A MIT</strong></th>
+            <tr style="background-color: white;">
+                <div><td>
+                    <div>
+                        <FONT size="4">
+                            Nom:  <input type="text" name="Nom" placeholder="Nom"/><br>
+                            Pr&eacute;nom:  <input type="text" name="Pr&eacute;nom" placeholder="Pr&eacute;nom"/><br>
+                            N° d'inscription: <input type="text" name="num" placeholder="3280521"/><br>
+                            Date de naissance: <input type="text" name="date" placeholder="jj/mm/aa"/><br>
+                            Nationalit&eacute;
+                                <select name="Nationalit&eacute;"><br>
+                                    <option value="1">Malagasy</option>
+                                    <option value="2">Fran&cap;ais</option>
+                                    <option value="3">Anglais</option> 
+                                    <option value="4">Espaniol</option>
+                                    <option value="5">Chinois</option>
+                                    <option value="6">Am&eacute;ricain</option>
+                                </select><br>
+                            Ann&eacute;e du BAC:
+                                  2021<input type="radio" name="an"/>
+                                  2022<input type="radio" name="an"/>
+                                  2023<input type="radio" name="an"/><br>
+                                Centre du BAC: <input type="text" name="centre" placeholder="Ville"/><br>
+                                S&eacute;rie du BAC: C<input type="radio" name="serie"> S<input type="radio" name="serie"><br>
+                                Mention: <select name="mention">
+                                        <option value="1">Tr&egrave;s Bien</option>
+                                        <option value="2">Bien</option>
+                                        <option value="3">Assez Bien</option><br>
+                                </select>
+                            </FONT>
+                        </div>
+                </td>
+                <tr style="background-color:red;" font-size=20px>
+                <td > 
+                    <input type="submit" value="Valider" id="in"/>
+                </td>
+                </div>
+                </tr>
+            </tr>  
+            </table></div>   
+    </form></P>
+</body>
+</html>
